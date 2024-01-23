@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface Administrator {
+public interface Administrator extends User{
+    void overdueNotification(Reader reader, Book book);
 }
